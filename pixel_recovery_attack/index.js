@@ -63,6 +63,7 @@ function canvasFingerPrint() {
 		a: img.data[3] - 255,
 	};
 
+	// reverse the noise
 	console.log(shift);
 	let src = "";
 	for (let i = 0; i < canvas.height; i++) {
